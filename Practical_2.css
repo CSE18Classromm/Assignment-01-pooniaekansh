@@ -52,7 +52,6 @@ body {
     max-height: 0;
     overflow: hidden;
     background: #050505;
-    transition: max-height;
   }
   .nav-links li {
     border-top: 1px solid #444;
