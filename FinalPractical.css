@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+    
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    
+    text-align: center;
+    
+}
+
+.navbar a:hover {
+    background-color: grey;
+}
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
